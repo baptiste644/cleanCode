@@ -33,7 +33,7 @@
             text="Ouvrir le Popup">
       <add-to-group group-id="ToolsMenu" anchor="last"/>
       <!-- Déclarez le raccourci clavier -->
-      <keyboard-shortcut first-keystroke="ctrl alt h" keymap="$default"/>
+      <keyboard-shortcut first-keystroke="ctrl alt a" keymap="$default"/>
     </action>
   </actions>
 

@@ -38,7 +38,7 @@ public class Utils {
     }
 
     public static String getTri() {
-        return "src";
+        return "Rof";
     }
 
     public static String getFileName(String path) {

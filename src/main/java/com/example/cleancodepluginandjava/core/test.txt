@@ -11,6 +11,8 @@ function AppView({
                      variable2String,
                      variable3String,
                      onTest1Fonction,
+                     ezze,
+                     zezz,
                      variableStringToInt,
                      // }) => (
                  }) {

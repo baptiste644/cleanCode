@@ -14,6 +14,7 @@ class ImportViewCleanAction : AnAction("Import View Clean"){
     override fun actionPerformed(e: AnActionEvent) {
         var contents = getContents(e)
         Messages.showMessageDialog(getPath(e), "path", Messages.getInformationIcon())
+        Messages.showMessageDialog(contents.size.toString(), "path", Messages.getInformationIcon())
         Messages.showMessageDialog(contents.toString(), "Avant Modif", Messages.getInformationIcon())
         contents = ImportViewCleanTask.importViewCleanTask(contents)
         Messages.showMessageDialog(contents.toString(), "Apres Modif", Messages.getInformationIcon())

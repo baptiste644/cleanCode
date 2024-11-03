@@ -6,7 +6,7 @@ import com.intellij.openapi.actionSystem.AnActionEvent
 
 class ShowPopupAction : AnAction("Ouvrir le Popup") {
     override fun actionPerformed(e: AnActionEvent) {
-        val dialog = PopupDialog()
+        val dialog = PopupDialog(e)
         dialog.show()
     }
 }
